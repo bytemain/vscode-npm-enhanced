@@ -56,7 +56,7 @@ function doDependencyLink(
                 )
               ),
               target: vscode.Uri.parse(
-                `https://web.npm.alibaba-inc.com/package/${child.keyNode.value}`
+                `https://npmjs.com/package/${child.keyNode.value}`
               ),
             });
           }
